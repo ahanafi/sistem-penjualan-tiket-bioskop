@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB45E2CC-4C71-46C2-9E0C-227BD2752DF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GetTixApp.My.MyApplication</StartupObject>
+    <RootNamespace>GetTixApp</RootNamespace>
+    <AssemblyName>GetTixApp</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ManifestCertificateThumbprint>E679C106557500D0EE77B1CC6AE35CE71E95BF8E</ManifestCertificateThumbprint>
+    <ManifestKeyFile>GetTixApp_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GetTixApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GetTixApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="libmysqlcic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\libMySQLCIC\libmysqlcic.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ConnectionModule.vb" />
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film.vb" />
+    <Compile Include="FormFilm.Designer.vb">
+      <DependentUpon>FormFilm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormFilm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJadwal.Designer.vb">
+      <DependentUpon>FormJadwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormJadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJadwalPilihFilm.Designer.vb">
+      <DependentUpon>FormJadwalPilihFilm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormJadwalPilihFilm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKursi.Designer.vb">
+      <DependentUpon>FormKursi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormKursi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPembayaran.Designer.vb">
+      <DependentUpon>FormPembayaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPembayaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInputPembelian.Designer.vb">
+      <DependentUpon>FormInputPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormInputPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPembelian.Designer.vb">
+      <DependentUpon>FormPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectFilm.Designer.vb">
+      <DependentUpon>FormSelectFilm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectFilm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectJadwal.Designer.vb">
+      <DependentUpon>FormSelectJadwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectJadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudio.Designer.vb">
+      <DependentUpon>FormStudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser.Designer.vb">
+      <DependentUpon>FormUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jadwal.vb" />
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pembayaran.vb" />
+    <Compile Include="Pembelian.vb" />
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Studio.vb" />
+    <Compile Include="Users.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dashboard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFilm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormFilm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJadwal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormJadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJadwalPilihFilm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormJadwalPilihFilm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKursi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormKursi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPembayaran.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPembayaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInputPembelian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormInputPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPembelian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectFilm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSelectFilm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectJadwal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSelectJadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormStudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No-Image-Available.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTER_movie_film_movies_posters_5120x3620.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\landscape-1280x720-flat-4k-5k-fog-iphone-wallpaper-forest-blue-11927.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flat-landscape.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\access.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket-576228_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket-576228_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-Day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Projection-Room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Film-Projector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GetTixApp_TemporaryKey.pfx" />
+    <None Include="Resources\Film-Strip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-popcorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-film.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-video-cameras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-cinema-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-cinema-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-video-camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-cinema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\030-popcorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\039-theatre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-3d-glasses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-off %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

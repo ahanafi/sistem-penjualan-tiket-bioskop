@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+libmysqlcic
+</name>
+</assembly>
+<members>
+<member name="P:libmysqlcic.Client.SSL">
+	<summary>
+ Mode koneksi Aman
+ </summary>
+</member><member name="P:libmysqlcic.Client.DataReader">
+	<summary>
+ Penampung data hasil pencarian fungsi searchone
+ </summary>
+</member><member name="P:libmysqlcic.Client.Host">
+	<summary>
+ Nama host MySQL
+ </summary>
+</member><member name="P:libmysqlcic.Client.DBUsername">
+	<summary>
+ Username database MySQL (Default: root)
+ </summary>
+</member><member name="P:libmysqlcic.Client.DBPassword">
+	<summary>
+ Password database MySQL (boleh dikosongkan bila memang tdk ada passwordnya)
+ </summary>
+</member><member name="P:libmysqlcic.Client.DBName">
+	<summary>
+ Nama database MySQL
+ </summary>
+</member><member name="P:libmysqlcic.Client.DBPort">
+	<summary>
+ Port Database MySQL yang digunakan (Default:3306)
+ </summary>
+</member><member name="P:libmysqlcic.Client.RecordFound">
+	<summary>
+ Hasil pencarian data (True = Ditemukan, False=Tdk ditemukan)
+ </summary>
+</member><member name="M:libmysqlcic.Client.Connect">
+	<summary>
+ Proses menyambungkan koneksi
+ </summary>
+</member><member name="M:libmysqlcic.Client.Disconnect">
+	<summary>
+ Proses memutuskan koneksi
+ </summary>
+</member><member name="M:libmysqlcic.Client.ConnectionState">
+	<summary>
+ Status koneksi (True = Terkoneksi, False = Koneksi Terputus)
+ </summary>
+</member><member name="M:libmysqlcic.Client.Data_Combo(System.Windows.Forms.ComboBox,System.String,System.String,System.String)">
+	<summary>
+ Menampilkan data di ComboBox berdasarkan Tabel di MySQL
+ </summary>
+</member><member name="M:libmysqlcic.Client.Data_Record(System.String,System.String)">
+	<summary>
+ Menampilkan Data di DataGridView berdasarkan nama Tabel dan perintah SQL
+ </summary>
+</member><member name="M:libmysqlcic.Client.searchone(System.String)">
+	<summary>
+ Proses pencarian record berdasarkan perintah SQL
+ </summary>
+</member><member name="M:libmysqlcic.Client.ExecuteSQL(System.String,System.String)">
+	<summary>
+ Proses menjalankan perintah SQL
+ </summary>
+</member><member name="M:libmysqlcic.Client.VBNetDateToMySQLDate(System.DateTime)">
+	<summary>
+ Menformat tanggal dari VB Net menjadi yyyy-mm-dd yang dikenal MySQL
+ </summary>
+</member><member name="P:libmysqlcic.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:libmysqlcic.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:libmysqlcic.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

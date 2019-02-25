@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="GetTixApp.exe" version="1.0.0.0" publicKeyToken="fd8043c962c95a2e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GetTixApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GetTixApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="6.6.5.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GetTixApp.exe" size="5058560">
+      <assemblyIdentity name="GetTixApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vmVPkyinRjfNpgXXqaNd+TJ+iBw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libmysqlcic.dll" size="25088">
+      <assemblyIdentity name="libmysqlcic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>duJ5u2azK5Jxqes1ItE+1aCHS3E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=AHANAFI-PC\Ahanafi" issuerKeyHash="e9fb374305d8b3fa9fa07be6b0d94974bae7a560" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HwkKX8QZm+vGrFTt5qaUSbMZndo=</DigestValue></Reference></SignedInfo><SignatureValue>k7cBReCNSFn1L9BxdLrv0U1MpgGknqSAzy4ZFD6ob13+s/kNlAUOkoKXpFRrpK/x1L8N0r9ADCVPWGOPKksLxpwX4w53XlfpEgnjEp9RJWgziiuH1OLMFTesPdVxMvG6NIxycVD11vKC+vcbZQIsc2LVujJcgQyFDADs/F6JNhE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oVrBkW777iUTr00d1e25zFS5y1eOx8cdiXpVjqO8zJkjFwQOVwIfSrSU1aQNBbaA7ETDiONlr+fs5aWysl3rZtVITx5o/4Ok0YSKjlN5RI5xLgNSFVBfstlLquhRMuORRoRvQiRvJrjAwjCcLoQx+JbjIxQdkYwJa5EzjGzgRzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="da9d19b34994a6e6ed54acc6eb9b19c45f0a091f" Description="" Url=""><as:assemblyIdentity name="GetTixApp.exe" version="1.0.0.0" publicKeyToken="fd8043c962c95a2e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AHANAFI-PC\Ahanafi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6QeJnBdNkXSbsHgvGeKxL/yTJ5U=</DigestValue></Reference></SignedInfo><SignatureValue>EhIts4EfvwGL6YPx6E5qFOlsk7npNNtGOkDJi/j/iJwacr+OXolAXXJHBdgnRj+TAzm387htUqIg1uJ9Qpswtqaoh9fs9S1qxL+NlUNo3hthfoDtMcUwNIgIgUbutN6SCEviVr+/7cHwKNxXT0s2k5FL/xa7lJM8Ul9ikoGXU3A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oVrBkW777iUTr00d1e25zFS5y1eOx8cdiXpVjqO8zJkjFwQOVwIfSrSU1aQNBbaA7ETDiONlr+fs5aWysl3rZtVITx5o/4Ok0YSKjlN5RI5xLgNSFVBfstlLquhRMuORRoRvQiRvJrjAwjCcLoQx+JbjIxQdkYwJa5EzjGzgRzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQeIkZytaOn7RGruf6Jj/TMjANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAQQBIAEEATgBBAEYASQAtAFAAQwBcAEEAaABhAG4AYQBmAGkwHhcNMTkwMjAzMDkyMDQ0WhcNMjAwMjAzMTUyMDQ0WjAvMS0wKwYDVQQDHiQAQQBIAEEATgBBAEYASQAtAFAAQwBcAEEAaABhAG4AYQBmAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKFawZFu++4lE69NHdXtucxUuctXjsfHHYl6VY6jvMyZIxcEDlcCH0q0lNWkDQW2gOxEw4jjZa/n7OWlsrJd62bVSE8eaP+DpNGEio5TeUSOcS4DUhVQX7LZS6roUTLjkUaEb0Ikbya4wMIwnC6EMfiW4yMUHZGMCWuRM4xs4Ec1AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAMFqRUWAeCPHPios3wM3gr/ktHFN1+KxZ+nHBI3FuCLNnjQIFo6hh2rVHywOKXn49bzQEotvmM7gFAXO6OLLn1uOJIVXZXLDcebMtzz6j/x+I5nEUDOETmpm8qnAg2Xl8+pxvcEhyeFkS2R/FUlgDmlatuBhgA5M8xoeeYgS7y6k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
