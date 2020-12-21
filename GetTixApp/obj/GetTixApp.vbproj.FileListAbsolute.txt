@@ -99,3 +99,33 @@ C:\Users\Ahanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\D
 C:\Users\Ahanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormPembelian.resources
 C:\Users\Ahanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\MySql.Data.dll
 C:\Users\Ahanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormJadwalPilihFilm.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.exe
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.xml
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.pdb
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\GetTixApp.exe.manifest
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\GetTixApp.application
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\GetTixApp.exe
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\GetTixApp.pdb
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\GetTixApp.xml
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\libmysqlcic.dll
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\libmysqlcic.pdb
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\bin\Debug\libmysqlcic.xml
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.Dashboard.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormFilm.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormJadwal.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormJadwalPilihFilm.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormKursi.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormPembayaran.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormInputPembelian.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormPembelian.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormSelectFilm.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormSelectJadwal.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormStudio.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.FormUser.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.Login.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.Resources.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.SplashScreen.resources
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.vbproj.GenerateResource.Cache
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.exe.manifest
+C:\Users\Ahmad Hanafi\Documents\Visual Studio 2005\Projects\GetTixApp\GetTixApp\obj\Debug\GetTixApp.application
